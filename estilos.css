@@ -4,3 +4,21 @@
 .divs-facilidades{
     width: 325px;
 }
+.card-header, .cor-branca {
+color: #cccccc;
+}
+.cor-verde{
+    color: #daff01;
+}
+.cor-roxa{
+    background-color: #9353ff;
+    border: none;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}

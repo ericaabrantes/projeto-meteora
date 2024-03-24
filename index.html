@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./meteora-assets-main/assets/favicon.png" type="image/x-icon">
     <title>Meteora</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -14,9 +15,12 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <nav class="navbar navbar-expand-md bg-black navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Meteora</a>
+            <a class="navbar-brand" href="#">
+                <h1 class="m-0"><img class="d-block" src="./meteora-assets-main/assets/logo-meteora.png"
+                        alt="Logo Meteora"></h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -38,8 +42,9 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Digite o Produto" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o Produto"
+                        aria-label="Pesquisar">
+                    <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
@@ -58,119 +63,125 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
-                        dy=".3em">First slide</text>
-                </svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                <img class="w-100 img-fluid d-md-none" src="./meteora-assets-main/assets/Mobile/banner1-mobile.png"
+                    alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/banner1-tablet.png"
+                    alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
+                <img class="w-100 img-fluid d-none d-xl-block"
+                    src="./meteora-assets-main/assets/Desktop/banner1-desktop.png"
+                    alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
+            </div>
+
+            <div class="carousel-item">
+                <img class="w-100 img-fluid d-md-none" src="./meteora-assets-main/assets/Mobile/banner2-mobile.png"
+                    alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/banner2-tablet.png"
+                    alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+                <img class="w-100 img-fluid d-none d-xl-block"
+                    src="./meteora-assets-main/assets/Desktop/banner2-desktop.png"
+                    alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+                <div class="carousel-caption">
+                    <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+                    <p class="fs-4">Estilo e qualidade para durar.</p>
                 </div>
             </div>
+
             <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
-                        dy=".3em">Second slide</text>
-                </svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
-                        dy=".3em">Third slide</text>
-                </svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                <img class="w-100 img-fluid d-md-none" src="./meteora-assets-main/assets/Mobile/banner3-mobile.png"
+                    alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/banner3-tablet.png"
+                    alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+                <img class="w-100 img-fluid d-none d-xl-block"
+                    src="./meteora-assets-main/assets/Desktop/banner3-desktop.png"
+                    alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+                <div class="carousel-caption">
+                    <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+                    <p class="fs-4">Alto impacto visual, baixo impacto ambiental!</p>
                 </div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">Anterior</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="visually-hidden">Próximo</span>
         </button>
     </div>
 
     <!-- CARDS -->
 
-    <h2 class="text-center">Busque por categoria:</h2>
+    <h2 class="text-center my-3 my-xl-5">Busque por categoria:</h2>
 
     <div class="container row mx-auto g-4">
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block"
+                    src="./meteora-assets-main/assets/Mobile/categorias/categoria-camiseta.png"
+                    alt="Camiseta MAsculina de Manga na cor verde,com bolso, com detalhe vermelho">
+                <img class="d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/categorias/categoria-camiseta.png"
+                    alt="Camiseta MAsculina de Manga na cor verde,com bolso, com detalhe vermelho">
+                <img class="d-none d-xl-block"
+                    src="./meteora-assets-main/assets/Desktop/categorias/categoria-camiseta.png"
+                    alt="Camiseta MAsculina de Manga na cor verde,com bolso, com detalhe vermelho">
+                <div class="card-header bg-black">
+                    <p class="text-center ">Camisetas</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-bolsas.png"
+                    alt="Bolsa Marrom com alça de corrente e detalhe amarelo na alça">
+                <img class="d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/categorias/categoria-bolsas.png"
+                    alt="Bolsa Marrom com alça de corrente e detalhe amarelo na alça">
+                <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/categorias/categoria-bolsa.png"
+                    alt="Bolsa Marrom com alça de corrente e detalhe amarelo na alça">
+                <div class="card-header bg-black">
+                    <p class="text-center">Bolsas</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block"
+                    src="./meteora-assets-main/assets/Mobile/categorias/categoria-calcados.png"
+                    alt="Calçado branco com detalhes coloridos">
+                <img class="d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/categorias/categoria-calcados.png"
+                    alt="Calçado branco com detalhes coloridos">
+                <img class="d-none d-xl-block"
+                    src="./meteora-assets-main/assets/Desktop/categorias/categoria-calcados.png"
+                    alt="Calçado branco com detalhes coloridos">
+                <div class="card-header bg-black">
+                    <p class="text-center">Calçados</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-calcas.png"
+                    alt="4 calças jeans de tonalidades diferentes">
+                <img class="d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/categorias/categoria-calcas.png"
+                    alt="4 calças jeans de tonalidades diferentes">
+                <img class="d-none d-xl-block"
+                    src="./meteora-assets-main/assets/Desktop/categorias/categoria-calcas.png"
+                    alt="4 calças jeans de tonalidades diferentes">
+                <div class="card-header bg-black">
+                    <p class="text-center">Calças</p>
                 </div>
             </div>
         </div>
@@ -178,32 +189,32 @@
 
         <div class="col-6 col-md-4 col-xxl-2">
 
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block"
+                    src="./meteora-assets-main/assets/Mobile/categorias/categoria-casacos.png" alt="Casaco marrom">
+                <img class="d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/categorias/categoria-casacos.png" alt="Casaco marrom">
+                <img class="d-none d-xl-block"
+                    src="./meteora-assets-main/assets/Desktop/categorias/categoria-casacos.png" alt="Casaco marrom">
+                <div class="card-header bg-black">
+                    <p class="text-center">Casacos</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
 
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-oculos.png"
+                    alt="Oculos de Sol, lentes escuras e armação aviador dourada">
+                <img class="d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/categorias/categoria-oculos.png"
+                    alt="Oculos de Sol, lentes escuras e armação aviador dourada">
+                <img class="d-none d-xl-block"
+                    src="./meteora-assets-main/assets/Desktop/categorias/categoria-oculos.png"
+                    alt="Oculos de Sol, lentes escuras e armação aviador dourada">
+                <div class="card-header bg-black ">
+                    <p class="text-center">Óculos</p>
                 </div>
             </div>
         </div>
@@ -211,7 +222,7 @@
 
     </div>
 
-    <h2 class="text-center">Produtos que estão bombando!</h2>
+    <h2 class=" container text-center my-3 my-xl-5">Produtos que estão bombando!</h2>
 
 
     <!-- CARDS PRODUTOS -->
@@ -220,126 +231,104 @@
 
         <div class="col-12 col-md-6 col-xl-4 pb-4">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image
-                        cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/produtos/camiseta.png"
+                    alt="Camiseta confortável cor amarela">
+                <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/camiseta.png"
+                    alt="Camiseta confortável cor amarela">
+                <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/camiseta.png"
+                    alt="Camiseta confortável cor amarela">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <h5 class="card-title">Camiseta Conforto</h5>
+                    <p class="card-text">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão.
+                        Modelagem unissex.</p>
+                    <p>R$70,00</p>
+                    <a href="#" class="btn btn-primary cor-roxa rounded-0">Ver mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xl-4 pb-4">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image
-                        cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/produtos/calca.png"
+                    alt="Calça confortável beje">
+                <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/calca.png"
+                    alt="Calça confortável beje">
+                <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/calca.png"
+                    alt="Calça confortável beje">
                 <div class="card-body">
                     <h5 class="card-title">Produto</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <p class="card-text">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
+                    <p>R$180,00</p>
+                    <a href="#" class="btn btn-primary cor-roxa rounded-0">Ver mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xl-4 pb-4">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image
-                        cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/produtos/tenis.png"
+                    alt="Tênis branco">
+                <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/tenis.png"
+                    alt="Tênis branco">
+                <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/tenis.png"
+                    alt="Tênis branco">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <h5 class="card-title">Tênis Chunky</h5>
+                    <p class="card-text">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex..</p>
+                    <p>R$250,00</p>
+                    <a href="#" class="btn btn-primary cor-roxa rounded-0">Ver mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xl-4 pb-4">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image
-                        cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/produtos/jaqueta-jeans.png"
+                    alt="Jaqueta Jeans">
+                <img class="d-none d-md-block d-xl-none"
+                    src="./meteora-assets-main/assets/Tablet/produtos/jaqueta-jeans.png" alt="Jaqueta Jeans">
+                <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/jaqueta-jeans.png"
+                    alt="Jaqueta Jeans">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <h5 class="card-title">Jaqueta Jeans</h5>
+                    <p class="card-text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                    <p>R$150,00</p>
+                    <a href="#" class="btn btn-primary cor-roxa rounded-0">Ver mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xl-4 pb-4">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image
-                        cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/produtos/oculos.png"
+                    alt="Óculos Redondo">
+                <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/oculos.png"
+                    alt="Óculos Redondo">
+                <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/oculos.png"
+                    alt="Óculos Redondo">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <h5 class="card-title">Óculos Redondo</h5>
+                    <p class="card-text">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+                    <p>R$120,00</p>
+                    <a href="#" class="btn btn-primary cor-roxa rounded-0">Ver mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xl-4 pb-4">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image
-                        cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/produtos/bolsa.png"
+                    alt="Mulher segurando uma bolsa Marrom">
+                <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/bolsa.png"
+                    alt="Mulher segurando uma bolsa Marrom">
+                <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/bolsa.png"
+                    alt="Mulher segurando uma bolsa Marrom">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <h5 class="card-title">Bolsa coringa</h5>
+                    <p class="card-text">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por
+                        uma vida!</p>
+                    <p>R$120,00</p>
+                    <a href="#" class="btn btn-primary cor-roxa rounded-0">Ver mais</a>
                 </div>
             </div>
         </div>
@@ -347,42 +336,42 @@
     </div>
 
 
-    <section class="pb-4">
+    <section class="pb-4 bg-black">
 
-        <h2 class="text-center">Conheça todas as nossas facilidades</h2>
+        <h2 class="text-center cor-branca">Conheça todas as nossas facilidades</h2>
 
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
             <div class="divs-facilidades d-flex align-items-center">
-                <div><i class="bi bi-x-diamond fs-1"></i></div>
+                <div><i class="bi bi-x-diamond fs-1 cor-verde"></i></div>
                 <div>
-                    <div class="ms-3">PAGUE PELO PIX</div>
-                    <div class="texto-menor ms-3">Ganhe 5% OFF em
+                    <div class="ms-3 cor-verde">PAGUE PELO PIX</div>
+                    <div class="texto-menor ms-3 cor-branca">Ganhe 5% OFF em
                         pagamentos via PIX</div>
                 </div>
             </div>
 
 
             <div class="divs-facilidades d-flex">
-                <div><i class="bi bi-arrow-repeat fs-1"></i></div>
+                <div><i class="bi bi-arrow-repeat fs-1 cor-verde"></i></div>
                 <div>
-                    <div class="ms-3">TROCA GRÁTIS</div>
-                    <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias.</div>
+                    <div class="ms-3 cor-verde">TROCA GRÁTIS</div>
+                    <div class="texto-menor ms-3 cor-branca">Fique livre para trocar em até 30 dias.</div>
                 </div>
             </div>
 
 
             <div class="divs-facilidades d-flex">
-                <div><i class="bi bi-flower1 fs-1"></i></div>
+                <div><i class="bi bi-flower1 fs-1 cor-verde"></i></div>
                 <div>
-                    <div class="ms-3">SUSTENTABILIDADE</div>
-                    <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
+                    <div class="ms-3 cor-verde">SUSTENTABILIDADE</div>
+                    <div class="texto-menor ms-3 cor-branca">Moda responsável, que respeita o meio ambiente.</div>
                 </div>
             </div>
         </div>
 
     </section>
 
-    <form class="border border-secundary m-3 p-3 text-center">
+    <form class="border border-secundary my-3 my-xl-5 p-3 text-center">
         <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
         <div class="input-group my-3">
             <input type="email" class="form-control border-secundary rounded-0" placeholder="Digite seu e-mail"
@@ -392,8 +381,9 @@
     </form>
 
 
-    <footer class="text-center">
-        <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+    <footer class="text-center bg-black cor-branca">
+        <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins
+            comerciais.</p>
     </footer>
 
 
